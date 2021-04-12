@@ -52,7 +52,7 @@ i.fa-sun{
     height:100vh;
     clip-path: polygon(100% 0, 74% 69%, 0 100%, 0 0);
     background:var(--on-background);
-    width:56%;
+    width:60%;
 }
 
 .header{
@@ -207,7 +207,7 @@ p.header{
     }
     .photographer{
         margin:3rem auto 0;
-        width:56rem;
+        width:50rem;
     }
 }
 
@@ -221,6 +221,7 @@ p.header{
     }
     .graphic{
         width:150%;
+        height:80vh;
     }
     i{
         color:#f7e8f6;
@@ -229,17 +230,17 @@ p.header{
         font-size:2.2rem;
     }
     main > div{
-        width:90%;
+        width:100%;
         overflow-wrap:break-word;
-        padding-top:68rem;
+        padding-top:40rem;
     }
     .site-title{
         width:100%;
         margin:0 0 2rem;
     }
     .photographer{
-        margin:5rem auto 0;
-        width:61rem;
+        margin:10rem auto 2rem;
+        width:56rem;
     }
 }  
 
@@ -253,6 +254,7 @@ p.header{
     }
     .graphic{
         width:150%;
+        height:75vh;
     }
     i{
         color:#f7e8f6;
@@ -263,31 +265,31 @@ p.header{
     main > div{
         width:90%;
         overflow-wrap:break-word;
-        padding-top:68rem;
+        padding-top:45rem;
     }
     .site-title{
         width:100%;
         margin:0 0 2rem;
     }
     .photographer{
-        margin:5rem auto 0;
+        margin:6rem auto 0;
         width:61rem;
     }
 
 }
-@media screen and (min-width:950px) and (max-width:1122px){
+@media screen and (min-width:950px) and (max-width:1212px){
     html{
-        font-size:9px;
+        font-size:8.5px;
     }
     .graphic{
-        width:68%;
+        width:70%;
     }
 
     p{
         font-size:2.3rem;
     }
     main > div{
-        width:70%;
+        width:68%;
         overflow-wrap:break-word;
     }
     .site-title{
